@@ -1,0 +1,62 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Crete Round', serif;
+box-sizing: border-box;
+}
+
+header {
+    color: white;
+    background-color: #FE2424;
+    padding: 30px;
+    position: sticky;
+   
+    }
+    
+    
+.icono {
+    width: 50px;
+    
+}
+
+.logo {
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ul-li {
+    padding: 20px 40px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FE2424;
+}
+    
+
+div {
+    margin: 5px
+}
+
+.galeria {
+    width: 80vh;
+    margin: 10px;
+    padding: 10px;
+    }
+
+h2 {
+    margin: 10px 10px;
+}
+
+a {
+    padding: 10px;
+}
+
+
