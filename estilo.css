@@ -5,58 +5,297 @@ font-family: 'Crete Round', serif;
 box-sizing: border-box;
 }
 
-header {
-    color: white;
-    background-color: #FE2424;
-    padding: 30px;
-    position: sticky;
-   
+
+@media (max-width: 479px) {
+    
+ body {
+        background-image: url(imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+    #grid-area {
+        display: grid;
+        grid-template-columns: 
+        "cabeza"
+        "menu"
+        "nosotros"
+        "galeria"
+        "formulario"
+        "pie";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+
+    }
+    header {
+        grid-area: cabeza;
+    }
+    nav {
+        grid-area: menu;
+    }
+    .nosotros {
+        grid-area: nosotros;
+    }
+    .galeria-grid{
+        grid-area: galeria;
+    }
+    form {
+        grid-area: formulario;
+    }
+    footer {
+        grid-area: pie;
+    }
+     header {
+        color: white;
+        background-image: linear-gradient(red , orange);
+        padding: 0px;
+        position: sticky;
+       
+    }
+    .icono {
+        width: 50px;
+        
+    }
+    .logo {
+        font-size: 35px;
+        padding: 0 80px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    .ul-li {
+        padding: 20px 40px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        text-decoration: none;
+        color: #FE2424;
+    }
+        
+    div {
+        margin: 5px
+    }
+
+    .grid-conteiner {
+        display: grid;
+        grid-template-columns: repeat(250px, 1fr);
+        grid-template-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    
+    
+    }
+           
+    .fotoGaleria{
+        width: 500px;
+        margin: 10px;
+        padding: 30px;
+    
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    .formulario {
+        width: 400px;
+        padding: 30px;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 4px;
+        background-image: radial-gradient(red , orange);
+        
+    }
+    .controles {
+        width: 100%;
+        padding: 5px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        border: 1px solid;
+        font-size: 18px;
+        
+    }
+    .boton {
+       width: 100%;
+       border: none;
+       padding: 5px;
+       color: red;
+       margin: 16px 0;
+    }
+    a {
+        padding: 10px;
+        text-decoration: none;
+        color: #FE2424;
     }
     
+    .divfooter {
+        display: flex;
+        justify-content: center;
+        }
     
-.icono {
-    width: 50px;
     
 }
 
-.logo {
-    font-size: 35px;
-    padding: 0 80px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-}
-
-
-.ul-li {
-    padding: 20px 40px;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #FE2424;
-}
-    
-
-div {
-    margin: 5px
-}
-
-.galeria {
-    width: 80vh;
-    margin: 10px;
-    padding: 10px;
+@media (min-width: 1024px){
+    body {
+        background-image: url(imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
     }
-
-h2 {
-    margin: 10px 10px;
+    
+    header {
+        color: white;
+        background-image: linear-gradient(blue , cyan);
+        padding: 30px;
+        position: sticky;
+       
+    }
+    .icono {
+        width: 50px;
+        
+    }
+    .logo {
+        font-size: 35px;
+        padding: 0 80px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    .ul-li {
+        padding: 20px 40px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        text-decoration: none;
+        color: #FE2424;
+    }
+        
+    div {
+        margin: 5px
+    }
+    
+    .grid-conteiner {
+        display: grid;
+        grid-template-columns: repeat(250px, 1fr);
+        grid-template-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    
+    
+    }
+           
+    .fotoGaleria{
+        width: 500px;
+        margin: 10px;
+        padding: 30px;
+    
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    a {
+        padding: 10px;
+        text-decoration: none;
+        color: #FE2424;
+    }
+    
+    .divfooter {
+        display: flex;
+        justify-content: center;
+        }
+    .ubicacion {
+        display: flex;
+        justify-content: center;
+      padding: 40px;
 }
-
-a {
-    padding: 10px;
+section {
+    width: 700px;
 }
+    
 
 
+@media (min-width: 480px) and (max-width: 1023px) {
+    body {
+        background-image: url(imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+    
+    header {
+        color: white;
+        background-image: linear-gradient(blue , cyan);
+        padding: 30px;
+        position: sticky;
+       
+    }
+    .icono {
+        width: 50px;
+        
+    }
+    .logo {
+        font-size: 35px;
+        padding: 0 80px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    .ul-li {
+        padding: 20px 40px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        text-decoration: none;
+        color: #FE2424;
+    }
+        
+    div {
+        margin: 5px
+    }
+    
+    .grid-conteiner {
+        display: grid;
+        grid-template-columns: repeat(250px, 1fr);
+        grid-template-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+    
+    
+    }
+           
+    .fotoGaleria{
+        width: 500px;
+        margin: 10px;
+        padding: 30px;
+    
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    a {
+        padding: 10px;
+        text-decoration: none;
+        color: #FE2424;
+    }
+    
+    .divfooter {
+        display: flex;
+        justify-content: center;
+        }
+    .ubicacion {
+        display: flex;
+        justify-content: center;
+      padding: 40px;
+}
+section {
+    width: 700px;
+}
+}

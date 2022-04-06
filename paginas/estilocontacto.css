@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crete Round', serif;
+    box-sizing: border-box;
+    }
+    @media (max-width: 479px) {
+        body {
+            background-image: url(../imagenes/fondo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover ;
+        }
+        
+        header {
+            color: white;
+            background-image: linear-gradient(blue , cyan);
+            padding: 30px;
+            position: sticky;
+        }
+        div {
+            margin: 5px
+        }
+        .icono {
+            width: 50px;
+            
+        }
+        .logo {
+            font-size: 35px;
+            padding: 0 80px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+        h2 {
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+        }
+        .menu {
+            padding: 20px 40px;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+           }
+    
+        nav ul li {
+            text-decoration: none;
+            color: #FE2424;
+        }
+        .formulario {
+            width: 400px;
+            padding: 30px;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 4px;
+            background-image: radial-gradient(red , orange);
+        }
+        .controles {
+            width: 100%;
+            padding: 5px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            border: 1px solid;
+            font-size: 18px;
+            
+        }
+        .boton {
+           width: 100%;
+           border: none;
+           padding: 5px;
+           color: red;
+           margin: 16px 0;
+        }
+        a {
+            padding: 10px;
+            text-decoration: none;
+            color: #FE2424;
+        }
+        
+        .divfooter {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    @media (min-width: 1024px){
+    body {
+        background-image: url(../imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+    
+    header {
+        color: white;
+        background-image: linear-gradient(blue , cyan);
+        padding: 30px;
+        position: sticky;
+    }
+    div {
+        margin: 5px
+    }
+    .icono {
+        width: 50px;
+        
+    }
+    .logo {
+        font-size: 35px;
+        padding: 0 80px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    .menu {
+        padding: 20px 40px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+       }
+
+    nav ul li {
+        text-decoration: none;
+        color: #FE2424;
+    }
+    .formulario {
+        width: 400px;
+        padding: 30px;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 4px;
+        background-image: radial-gradient(red , orange);
+    }
+    .controles {
+        width: 100%;
+        padding: 5px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        border: 1px solid;
+        font-size: 18px;
+        
+    }
+    .boton {
+       width: 100%;
+       border: none;
+       padding: 5px;
+       color: red;
+       margin: 16px 0;
+    }
+    a {
+        padding: 10px;
+        text-decoration: none;
+        color: #FE2424;
+    }
+    
+    .divfooter {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 1023px){
+    body {
+        background-image: url(../imagenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+    
+    header {
+        color: white;
+        background-image: linear-gradient(blue , cyan);
+        padding: 30px;
+        position: sticky;
+    }
+    div {
+        margin: 5px
+    }
+    .icono {
+        width: 50px;
+        
+    }
+    .logo {
+        font-size: 35px;
+        padding: 0 80px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+    .menu {
+        padding: 20px 40px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+       }
+
+    nav ul li {
+        text-decoration: none;
+        color: #FE2424;
+    }
+    .formulario {
+        width: 400px;
+        padding: 30px;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 4px;
+        background-image: radial-gradient(red , orange);
+    }
+    .controles {
+        width: 100%;
+        padding: 5px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+        border: 1px solid;
+        font-size: 18px;
+        
+    }
+    .boton {
+       width: 100%;
+       border: none;
+       padding: 5px;
+       color: red;
+       margin: 16px 0;
+    }
+    a {
+        padding: 10px;
+        text-decoration: none;
+        color: #FE2424;
+    }
+    
+    .divfooter {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+    
